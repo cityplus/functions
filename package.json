@@ -1,0 +1,27 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Apache whisk cloud functions",
+  "main": "index.js",
+  "scripts": {
+    "copy:shared": "./node_modules/.bin/gulp copy:shared"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityplus/functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cityplus/functions/issues"
+  },
+  "homepage": "https://github.com/cityplus/functions#readme",
+  "devDependencies": {
+    "async": "^3.0.1",
+    "copy": "^0.3.2",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "rimraf": "^2.6.3"
+  }
+}
