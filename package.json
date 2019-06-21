@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "City+ IBM cloud functions",
   "scripts": {
+    "copy": "./node_modules/.bin/gulp copy",
     "copy:shared": "./node_modules/.bin/gulp copy:shared"
   },
   "repository": {
