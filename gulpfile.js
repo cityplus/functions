@@ -17,4 +17,8 @@ gulp.task('copy:shared', done => {
     Async.each(functions, (func, cb) => copy('shared/**.js', `./${func}/shared`, cb), done);
 });
 
-gulp.task('copy', gulp.parallel(['copy:shared']));
+gulp.task('copy:env', done => {
+    Async.each(functions, (func, cb) => copy('.env', `./${func}/`, cb), done);
+});
+
+gulp.task('copy', gulp.parallel(['copy:shared', 'copy:env']));
