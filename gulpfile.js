@@ -6,7 +6,6 @@
 
 const gulp = require('gulp');
 const copy = require('copy');
-const glob = require('glob');
 const Async = require('async');
 
 const functions = [
